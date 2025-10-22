@@ -1,34 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Cube Rotation Demo</title>
-  <style>
-    body {
-      font-family: sans-serif;
-      text-align: center;
-      background-color: #111;
-      color: #eee;
-      margin: 0;
-      padding: 20px;
-    }
-    video, img {
-      width: 600px;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(255,255,255,0.2);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Graphics Tasks Videos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 40px;
+        }
+        video {
+            display: block;
+            margin: 10px 0 30px 0;
+            max-width: 80%;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        .task {
+            margin-bottom: 50px;
+        }
+    </style>
 </head>
 <body>
-  <h1>3D Cube Rotation Demo</h1>
-  <p>This animation shows the cube rotating around a random axis.</p>
 
-  <!-- Use a video -->
-  <video controls autoplay loop muted>
-    <source src="task01.mp4" type="video/mp4">
-    Your browser does not support HTML video.
-  </video>
+    <h1>Computer Graphics Tasks - Videos</h1>
 
-  <p>Created with OpenGL and C++</p>
+    <div class="task">
+        <h2>Task 1: Rotate cube around a random axis passing through the origin</h2>
+        <video controls>
+            <source src="videos/task01.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+    </div>
+
+    <div class="task">
+        <h2>Task 2: Rotate cube around a random axis not passing through the origin</h2>
+        <video controls>
+            <source src="videos/task02.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="task">
+        <h2>Task 3: Apply anisotropic scaling</h2>
+        <video controls>
+            <source src="videos/task03.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="task">
+        <h2>Task 4: Rotate around y-axis then periodic rotation around x-axis (global)</h2>
+        <video controls>
+            <source src="videos/task04.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="task">
+        <h2>Task 5: Rotate around y-axis then periodic rotation around local x-axis</h2>
+        <video controls>
+            <source src="videos/task05.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="task">
+        <h2>Task 6: Additional transformations</h2>
+        <video controls>
+            <source src="videos/task06.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="task">
+        <h2>Task 7: Rotate the camera around the cube </h2>
+        <video controls>
+            <source src="videos/task07.mp4" type="video/mp4">
+        </video>
+    </div>
+
 </body>
 </html>
